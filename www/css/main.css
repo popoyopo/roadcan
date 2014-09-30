@@ -1,0 +1,97 @@
+body {
+	-webkit-text-size-adjust: none;
+	background: #333333 url(../images/menuBg.gif) top left repeat-y;
+    width: 100%;
+}
+.pages h3 {
+	font-size: 20px;
+	margin: 0;
+}
+#pageone {
+	background-color: #333333;
+	float: left;
+	height: 100%;
+	width: 100%;
+    padding: 0px;
+}
+
+#myPanel {
+	background-color: #333333;
+	float: left;
+	height: 100%;
+	width: 60%;
+    padding: 0px;
+    opacity: 0.98;
+    filter: alpha(opacity=98); /* For IE8 and earlier */
+}
+
+#pageone ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+    background-color: #333333;
+}
+
+#pageone ul li a:link,
+#pageone ul li a:visited {
+	border-bottom: solid #333 0.5px;
+    border-color: #808080;
+	box-shadow: 0 1px 0 #333333;
+	color: #fff;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+    font-weight:normal;
+	padding: 5px 0px 3px 40px;
+	text-decoration: none;
+	text-shadow: 0 1px 1px #000;
+	width: inherit%;
+    background-color: #333333;
+}
+#pageone ul li a:hover,
+#pageone ul li a:active {
+	background-color: #333333;
+}
+.ui-body-c {
+	background-color: #fff;
+	line-height: 18px;
+}
+.active {
+	background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(30,29,29,1)),color-stop(21%,rgba(56,55,55,1)));
+	color: #fff;
+	text-shadow: 0 1px 1px #000;
+}
+
+.ui-listview>.ui-li-has-icon>img:first-child, .ui-listview>.ui-li-has-icon>.ui-btn>img:first-child {
+position: absolute;
+left: .625em;
+top: .5em;
+max-height: 1em;
+max-width: 1em;
+}
+
+
+/* Swipe works with mouse as well but often causes text selection. */
+#pageone * {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    padding: 0px;
+}
+/* Arrow only buttons in the header. */
+#pageone .ui-header .ui-btn {
+    background: none;
+    border: none;
+    top: 9px;
+}
+#pageone .ui-header .ui-btn-inner {
+    border: none;
+}
+/* Content styling. */
+dl { font-family: "Times New Roman", Times, serif; padding: 1em; }
+dt { font-size: 2em; font-weight: bold; }
+dt span { font-size: .5em; color: #777; margin-left: .5em; }
+dd { font-size: 1.25em; margin: 1em 0 0; padding-bottom: 1em; border-bottom: 1px solid #eee; }
+.back-btn { float: right; margin: 0 2em 1em 0; }
