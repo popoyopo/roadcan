@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1, minimum-scale=0.75, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
             <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
-            <link rel="stylesheet" href="css/main.css">
+            <link rel="stylesheet" href="css/main2.css">
+            <link rel="stylesheet" href="css/roadcan.css">
             <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
             <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
             <script type="text/javascript" charset="utf-8" src="js/app.js"></script>
@@ -24,15 +25,16 @@
                 </ul>
             </div>
             
-            <div data-role="header" class="jqm-header" data-theme="f" data-position="fixed">
-                <h1>jQuery Mobile</h1>
-                <a href="#panel-nav" data-icon="bars" data-iconpos="notext">Navigation</a>
-                <a href="../../" data-icon="home" data-iconpos="notext" data-ajax="false">Home</a>
+            <div data-role="header" data-position="fixed" class="header_ppal">
+                <h1>Cabecera</h1>
+                <a href="../../" class="ui-btn-right" data-iconpos="notext">Home</a>
             </div><!-- /header -->
             
+            <div data-role="header" data-position="inline" class="header_pos">
+                    <p class="texto_posicion">posicion</p>
+            </div>
+            
             <div data-role="main" class="ui-content">
-                <p>Click on the button below to open the Panel.</p>
-                <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Open Panel</a>
                 
                 <ul data-role="listview" data-split-icon="gear" data-split-theme="d">
                 <li><a href="index2.html">

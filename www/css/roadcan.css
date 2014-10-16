@@ -1,0 +1,48 @@
+/* Cabecera*/
+.header_ppal {
+    background: #42A4AD url(../images/logo.png) center no-repeat !important;
+    text-indent: -666em; /*ocultamos el texto del enlace*/
+}
+
+.header_pos{
+    height: .8em;
+    background-color: #000000;
+    z-index: 100;
+}
+
+.texto_posicion{
+    font-size: .6em;
+    min-height: .2em;
+    text-align: center;
+    display: block;
+    margin: 0 0;
+    padding: 0 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: 0!important;
+}
+
+/*Boton de la derecha de la cabecera*/
+.ui-btn-right{
+    background: url(../images/btn_opciones.png);
+    width: .8em;
+    height: .6em;
+    text-indent: -666em; /*ocultamos el texto del enlace*/
+}
+
+/*fila del listview*/
+
+#info .carretera
+{
+    font-size: .6em;
+}
+
+#info .estado_circulacion
+{
+    font-size: .6em;
+    color: red;
+}
+
+
+
